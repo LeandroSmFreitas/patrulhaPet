@@ -1,0 +1,32 @@
+2024-10-14T19:13:17,628-0300 [46284 1] com.newrelic INFO: Writing to New Relic log file: /Users/leandrosimoes/Desktop/patrulhapet/newrelic/logs/newrelic_agent.log
+2024-10-14T19:13:17,629-0300 [46284 1] com.newrelic INFO: JRE vendor Azul Systems, Inc. version 21.0.4
+2024-10-14T19:13:17,629-0300 [46284 1] com.newrelic INFO: JVM vendor Azul Systems, Inc. OpenJDK 64-Bit Server VM version 21.0.4+7-LTS
+2024-10-14T19:13:17,629-0300 [46284 1] com.newrelic INFO: OS Mac OS X version 14.4.1 arch aarch64
+2024-10-14T19:13:17,629-0300 [46284 1] com.newrelic INFO: Agent Host: Mac-mini-de-leandro.local IP: 127.0.0.1
+2024-10-14T19:13:17,629-0300 [46284 1] com.newrelic INFO: New Relic Agent v8.15.0 is initializing...
+2024-10-14T19:13:17,939-0300 [46284 33] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2024-10-14T19:13:18,696-0300 [46284 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2024-10-14T19:13:18,832-0300 [46284 1] com.newrelic INFO: Setting audit_mode to false
+2024-10-14T19:13:18,904-0300 [46284 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/leandrosimoes/Desktop/patrulhapet/newrelic/./newrelic.yml
+2024-10-14T19:13:18,906-0300 [46284 1] com.newrelic INFO: New Relic Agent v8.15.0 has started
+2024-10-14T19:13:18,906-0300 [46284 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@593634ad
+2024-10-14T19:13:18,906-0300 [46284 1] com.newrelic INFO: Premain startup complete in 1.921ms
+2024-10-14T19:13:18,907-0300 [46284 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2024-10-14T19:13:18,909-0300 [46284 26] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2024-10-14T19:13:18,910-0300 [46284 26] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2024-10-14T20:01:02,224-0300 [64439 1] com.newrelic INFO: Writing to New Relic log file: /Users/leandrosimoes/Desktop/patrulhapet/newrelic/logs/newrelic_agent.log
+2024-10-14T20:01:02,224-0300 [64439 1] com.newrelic INFO: JRE vendor Azul Systems, Inc. version 21.0.4
+2024-10-14T20:01:02,225-0300 [64439 1] com.newrelic INFO: JVM vendor Azul Systems, Inc. OpenJDK 64-Bit Server VM version 21.0.4+7-LTS
+2024-10-14T20:01:02,225-0300 [64439 1] com.newrelic INFO: OS Mac OS X version 14.4.1 arch aarch64
+2024-10-14T20:01:02,225-0300 [64439 1] com.newrelic INFO: Agent Host: Mac-mini-de-leandro.local IP: 127.0.0.1
+2024-10-14T20:01:02,225-0300 [64439 1] com.newrelic INFO: New Relic Agent v8.15.0 is initializing...
+2024-10-14T20:01:02,557-0300 [64439 33] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2024-10-14T20:01:03,250-0300 [64439 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2024-10-14T20:01:03,419-0300 [64439 1] com.newrelic INFO: Setting audit_mode to false
+2024-10-14T20:01:03,501-0300 [64439 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/leandrosimoes/Desktop/patrulhapet/newrelic/./newrelic.yml
+2024-10-14T20:01:03,504-0300 [64439 1] com.newrelic INFO: New Relic Agent v8.15.0 has started
+2024-10-14T20:01:03,504-0300 [64439 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@593634ad
+2024-10-14T20:01:03,504-0300 [64439 1] com.newrelic INFO: Premain startup complete in 1.873ms
+2024-10-14T20:01:03,505-0300 [64439 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2024-10-14T20:01:03,508-0300 [64439 26] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2024-10-14T20:01:03,509-0300 [64439 26] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
