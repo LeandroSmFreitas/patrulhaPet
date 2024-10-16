@@ -30,3 +30,133 @@
 2024-10-14T20:01:03,505-0300 [64439 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
 2024-10-14T20:01:03,508-0300 [64439 26] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
 2024-10-14T20:01:03,509-0300 [64439 26] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2024-10-14T20:08:46,436-0300 [70229 1] com.newrelic INFO: Writing to New Relic log file: /Users/leandrosimoes/Desktop/patrulhapet/newrelic/logs/newrelic_agent.log
+2024-10-14T20:08:46,436-0300 [70229 1] com.newrelic INFO: JRE vendor Azul Systems, Inc. version 21.0.4
+2024-10-14T20:08:46,436-0300 [70229 1] com.newrelic INFO: JVM vendor Azul Systems, Inc. OpenJDK 64-Bit Server VM version 21.0.4+7-LTS
+2024-10-14T20:08:46,436-0300 [70229 1] com.newrelic INFO: OS Mac OS X version 14.4.1 arch aarch64
+2024-10-14T20:08:46,436-0300 [70229 1] com.newrelic INFO: Agent Host: Mac-mini-de-leandro.local IP: 127.0.0.1
+2024-10-14T20:08:46,436-0300 [70229 1] com.newrelic INFO: New Relic Agent v8.15.0 is initializing...
+2024-10-14T20:08:46,780-0300 [70229 33] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2024-10-14T20:08:47,473-0300 [70229 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2024-10-14T20:08:47,638-0300 [70229 1] com.newrelic INFO: Setting audit_mode to false
+2024-10-14T20:08:47,708-0300 [70229 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/leandrosimoes/Desktop/patrulhapet/newrelic/./newrelic.yml
+2024-10-14T20:08:47,710-0300 [70229 1] com.newrelic INFO: New Relic Agent v8.15.0 has started
+2024-10-14T20:08:47,710-0300 [70229 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@593634ad
+2024-10-14T20:08:47,710-0300 [70229 1] com.newrelic INFO: Premain startup complete in 1.790ms
+2024-10-14T20:08:47,711-0300 [70229 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2024-10-14T20:08:47,714-0300 [70229 26] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2024-10-14T20:08:47,714-0300 [70229 26] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2024-10-14T20:09:50,180-0300 [70999 1] com.newrelic INFO: Writing to New Relic log file: /Users/leandrosimoes/Desktop/patrulhapet/newrelic/logs/newrelic_agent.log
+2024-10-14T20:09:50,180-0300 [70999 1] com.newrelic INFO: JRE vendor Azul Systems, Inc. version 21.0.4
+2024-10-14T20:09:50,180-0300 [70999 1] com.newrelic INFO: JVM vendor Azul Systems, Inc. OpenJDK 64-Bit Server VM version 21.0.4+7-LTS
+2024-10-14T20:09:50,180-0300 [70999 1] com.newrelic INFO: OS Mac OS X version 14.4.1 arch aarch64
+2024-10-14T20:09:50,180-0300 [70999 1] com.newrelic INFO: Agent Host: Mac-mini-de-leandro.local IP: 127.0.0.1
+2024-10-14T20:09:50,180-0300 [70999 1] com.newrelic INFO: New Relic Agent v8.15.0 is initializing...
+2024-10-14T20:09:50,502-0300 [70999 33] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2024-10-14T20:09:50,982-0300 [70999 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2024-10-14T20:09:51,124-0300 [70999 1] com.newrelic INFO: Setting audit_mode to false
+2024-10-14T20:09:51,189-0300 [70999 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/leandrosimoes/Desktop/patrulhapet/newrelic/./newrelic.yml
+2024-10-14T20:09:51,191-0300 [70999 1] com.newrelic INFO: New Relic Agent v8.15.0 has started
+2024-10-14T20:09:51,191-0300 [70999 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@593634ad
+2024-10-14T20:09:51,191-0300 [70999 1] com.newrelic INFO: Premain startup complete in 1.545ms
+2024-10-14T20:09:51,192-0300 [70999 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2024-10-14T20:09:51,194-0300 [70999 26] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2024-10-14T20:09:51,195-0300 [70999 26] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2024-10-14T20:09:58,668-0300 [71128 1] com.newrelic INFO: Writing to New Relic log file: /Users/leandrosimoes/Desktop/patrulhapet/newrelic/logs/newrelic_agent.log
+2024-10-14T20:09:58,668-0300 [71128 1] com.newrelic INFO: JRE vendor Azul Systems, Inc. version 21.0.4
+2024-10-14T20:09:58,669-0300 [71128 1] com.newrelic INFO: JVM vendor Azul Systems, Inc. OpenJDK 64-Bit Server VM version 21.0.4+7-LTS
+2024-10-14T20:09:58,669-0300 [71128 1] com.newrelic INFO: OS Mac OS X version 14.4.1 arch aarch64
+2024-10-14T20:09:58,669-0300 [71128 1] com.newrelic INFO: Agent Host: Mac-mini-de-leandro.local IP: 127.0.0.1
+2024-10-14T20:09:58,669-0300 [71128 1] com.newrelic INFO: New Relic Agent v8.15.0 is initializing...
+2024-10-14T20:09:58,948-0300 [71128 33] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2024-10-14T20:09:59,428-0300 [71128 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2024-10-14T20:09:59,548-0300 [71128 1] com.newrelic INFO: Setting audit_mode to false
+2024-10-14T20:09:59,612-0300 [71128 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/leandrosimoes/Desktop/patrulhapet/newrelic/./newrelic.yml
+2024-10-14T20:09:59,613-0300 [71128 1] com.newrelic INFO: New Relic Agent v8.15.0 has started
+2024-10-14T20:09:59,613-0300 [71128 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@593634ad
+2024-10-14T20:09:59,613-0300 [71128 1] com.newrelic INFO: Premain startup complete in 1.410ms
+2024-10-14T20:09:59,614-0300 [71128 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2024-10-14T20:09:59,616-0300 [71128 26] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2024-10-14T20:09:59,617-0300 [71128 26] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2024-10-14T20:10:54,110-0300 [71801 1] com.newrelic INFO: Writing to New Relic log file: /Users/leandrosimoes/Desktop/patrulhapet/newrelic/logs/newrelic_agent.log
+2024-10-14T20:10:54,110-0300 [71801 1] com.newrelic INFO: JRE vendor Azul Systems, Inc. version 21.0.4
+2024-10-14T20:10:54,110-0300 [71801 1] com.newrelic INFO: JVM vendor Azul Systems, Inc. OpenJDK 64-Bit Server VM version 21.0.4+7-LTS
+2024-10-14T20:10:54,110-0300 [71801 1] com.newrelic INFO: OS Mac OS X version 14.4.1 arch aarch64
+2024-10-14T20:10:54,110-0300 [71801 1] com.newrelic INFO: Agent Host: Mac-mini-de-leandro.local IP: 127.0.0.1
+2024-10-14T20:10:54,110-0300 [71801 1] com.newrelic INFO: New Relic Agent v8.15.0 is initializing...
+2024-10-14T20:10:54,403-0300 [71801 33] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2024-10-14T20:10:54,888-0300 [71801 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2024-10-14T20:10:55,035-0300 [71801 1] com.newrelic INFO: Setting audit_mode to false
+2024-10-14T20:10:55,109-0300 [71801 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/leandrosimoes/Desktop/patrulhapet/newrelic/./newrelic.yml
+2024-10-14T20:10:55,111-0300 [71801 1] com.newrelic INFO: New Relic Agent v8.15.0 has started
+2024-10-14T20:10:55,111-0300 [71801 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@593634ad
+2024-10-14T20:10:55,111-0300 [71801 1] com.newrelic INFO: Premain startup complete in 1.497ms
+2024-10-14T20:10:55,112-0300 [71801 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2024-10-14T20:10:55,114-0300 [71801 26] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2024-10-14T20:10:55,115-0300 [71801 26] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2024-10-14T20:11:45,952-0300 [72418 1] com.newrelic INFO: Writing to New Relic log file: /Users/leandrosimoes/Desktop/patrulhapet/newrelic/logs/newrelic_agent.log
+2024-10-14T20:11:45,953-0300 [72418 1] com.newrelic INFO: JRE vendor Azul Systems, Inc. version 21.0.4
+2024-10-14T20:11:45,953-0300 [72418 1] com.newrelic INFO: JVM vendor Azul Systems, Inc. OpenJDK 64-Bit Server VM version 21.0.4+7-LTS
+2024-10-14T20:11:45,953-0300 [72418 1] com.newrelic INFO: OS Mac OS X version 14.4.1 arch aarch64
+2024-10-14T20:11:45,953-0300 [72418 1] com.newrelic INFO: Agent Host: Mac-mini-de-leandro.local IP: 127.0.0.1
+2024-10-14T20:11:45,953-0300 [72418 1] com.newrelic INFO: New Relic Agent v8.15.0 is initializing...
+2024-10-14T20:11:46,248-0300 [72418 33] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2024-10-14T20:11:46,701-0300 [72418 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2024-10-14T20:11:46,827-0300 [72418 1] com.newrelic INFO: Setting audit_mode to false
+2024-10-14T20:11:46,888-0300 [72418 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/leandrosimoes/Desktop/patrulhapet/newrelic/./newrelic.yml
+2024-10-14T20:11:46,890-0300 [72418 1] com.newrelic INFO: New Relic Agent v8.15.0 has started
+2024-10-14T20:11:46,890-0300 [72418 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2024-10-14T20:11:46,890-0300 [72418 1] com.newrelic INFO: Premain startup complete in 1.481ms
+2024-10-14T20:11:46,891-0300 [72418 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2024-10-14T20:11:48,828-0300 [72418 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.30
+2024-10-14T20:11:51,896-0300 [72418 54] com.newrelic INFO: Host name is Mac-mini-de-leandro.local, display host Mac-mini-de-leandro.local for application patrulhapet
+2024-10-14T20:11:51,899-0300 [72418 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-10-14T20:11:52,831-0300 [72418 54] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2024-10-14T20:11:53,489-0300 [72418 54] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2024-10-14T20:11:53,490-0300 [72418 54] com.newrelic INFO: Agent run id: BRJyQX3M9n1rAEko8x8g-oFnDaV8AAIBAAAnIQEAARriAgQfIQQoAwAGOC4xNS4wABlNYWMtbWluaS1kZS1sZWFuZHJvLmxvY2FsAAtwYXRydWxoYXBldA
+2024-10-14T20:11:53,490-0300 [72418 54] com.newrelic INFO: Agent 72418@Mac-mini-de-leandro.local/patrulhapet connected to collector.newrelic.com:443
+2024-10-14T20:11:53,490-0300 [72418 54] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/4794611/applications/522257448
+2024-10-14T20:11:53,492-0300 [72418 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-10-14T20:11:53,492-0300 [72418 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-10-14T20:11:53,492-0300 [72418 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-10-14T20:11:53,494-0300 [72418 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-10-14T20:11:53,494-0300 [72418 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-10-14T20:11:53,494-0300 [72418 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-10-14T20:11:54,151-0300 [72418 54] com.newrelic INFO: Real user monitoring is enabled for application patrulhapet. Auto instrumentation is enabled.
+2024-10-14T20:11:54,152-0300 [72418 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-10-14T20:13:00,431-0300 [72418 26] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2024-10-14T20:13:00,502-0300 [72418 58] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@1d8cc35 tried to finish but ServiceManager not started
+2024-10-14T20:13:01,207-0300 [72418 26] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2024-10-14T20:20:20,541-0300 [82507 1] com.newrelic INFO: Writing to New Relic log file: /Users/leandrosimoes/Desktop/patrulhapet/newrelic/logs/newrelic_agent.log
+2024-10-14T20:20:20,541-0300 [82507 1] com.newrelic INFO: JRE vendor Azul Systems, Inc. version 21.0.4
+2024-10-14T20:20:20,542-0300 [82507 1] com.newrelic INFO: JVM vendor Azul Systems, Inc. OpenJDK 64-Bit Server VM version 21.0.4+7-LTS
+2024-10-14T20:20:20,542-0300 [82507 1] com.newrelic INFO: OS Mac OS X version 14.4.1 arch aarch64
+2024-10-14T20:20:20,542-0300 [82507 1] com.newrelic INFO: Agent Host: Mac-mini-de-leandro.local IP: 127.0.0.1
+2024-10-14T20:20:20,542-0300 [82507 1] com.newrelic INFO: New Relic Agent v8.15.0 is initializing...
+2024-10-14T20:20:20,874-0300 [82507 33] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2024-10-14T20:20:21,577-0300 [82507 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2024-10-14T20:20:21,718-0300 [82507 1] com.newrelic INFO: Setting audit_mode to false
+2024-10-14T20:20:21,786-0300 [82507 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/leandrosimoes/Desktop/patrulhapet/newrelic/./newrelic.yml
+2024-10-14T20:20:21,787-0300 [82507 1] com.newrelic INFO: New Relic Agent v8.15.0 has started
+2024-10-14T20:20:21,788-0300 [82507 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@20fa23c1
+2024-10-14T20:20:21,788-0300 [82507 1] com.newrelic INFO: Premain startup complete in 1.793ms
+2024-10-14T20:20:21,788-0300 [82507 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2024-10-14T20:20:23,982-0300 [82507 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.30
+2024-10-14T20:20:26,793-0300 [82507 54] com.newrelic INFO: Host name is Mac-mini-de-leandro.local, display host Mac-mini-de-leandro.local for application patrulhapet
+2024-10-14T20:20:26,794-0300 [82507 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-10-14T20:20:27,651-0300 [82507 54] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2024-10-14T20:20:28,978-0300 [82507 54] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2024-10-14T20:20:28,978-0300 [82507 54] com.newrelic INFO: Agent run id: BaqwfzmbpeCRAEko8x8g-oFnDaeYAAIBAAAnIQEAAUJLAgQfIQQoAwAGOC4xNS4wABlNYWMtbWluaS1kZS1sZWFuZHJvLmxvY2FsAAtwYXRydWxoYXBldA
+2024-10-14T20:20:28,979-0300 [82507 54] com.newrelic INFO: Agent 82507@Mac-mini-de-leandro.local/patrulhapet connected to collector.newrelic.com:443
+2024-10-14T20:20:28,979-0300 [82507 54] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/4794611/applications/522257448
+2024-10-14T20:20:28,982-0300 [82507 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-10-14T20:20:28,982-0300 [82507 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-10-14T20:20:28,982-0300 [82507 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-10-14T20:20:28,984-0300 [82507 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-10-14T20:20:28,984-0300 [82507 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-10-14T20:20:28,984-0300 [82507 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-10-14T20:20:29,322-0300 [82507 54] com.newrelic INFO: Real user monitoring is enabled for application patrulhapet. Auto instrumentation is enabled.
+2024-10-14T20:20:29,323-0300 [82507 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-10-14T20:35:28,874-0300 [82507 26] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2024-10-14T20:35:29,321-0300 [82507 58] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@62eef09f tried to finish but ServiceManager not started
+2024-10-14T20:35:29,741-0300 [82507 26] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
