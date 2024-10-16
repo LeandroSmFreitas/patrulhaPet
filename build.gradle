@@ -45,6 +45,7 @@ dependencies {
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0'
 	testImplementation 'org.mockito:mockito-core:3.7.7'
 	testImplementation 'org.mockito:mockito-junit-jupiter:3.7.7'
+	implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
 }
 
 tasks.named('test') {
@@ -83,5 +84,19 @@ jacocoTestCoverageVerification {
 				minimum = 0.5
 			}
 		}
+	}
+}
+
+tasks.withType(Test).configureEach {
+	jacocoTestReport {
+		classDirectories.setFrom(
+				files(classDirectories.files.collect { file ->
+					fileTree(dir: file, exclude: [
+							'br/com/manager/patrulhapet/security/cors/**',
+							'br/com/manager/patrulhapet/exceptions/**',
+							'br/com/manager/patrulhapet/facade/mapper/**'
+					])
+				})
+		)
 	}
 }

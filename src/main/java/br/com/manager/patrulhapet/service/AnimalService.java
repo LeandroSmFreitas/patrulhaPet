@@ -18,4 +18,6 @@ public interface AnimalService {
     public void deleteAnimal(Long id);
 
     public Animal getAnimalById(Long id);
+
+    public void verifyAccess(Animal animal);
 }

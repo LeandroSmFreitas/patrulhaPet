@@ -42,55 +42,46 @@ public class UserServiceImplTest {
     }
 
     @Test
-    void testLoginSuccess() {
-        // Dados do usuário
+    void makeLogin_ShouldReturnSuccess() {
         User user = User.builder()
                 .email("test@example.com")
                 .password("encodedPassword")
                 .username("testUser")
                 .build();
 
-        // Mock do método findUser e passwordEncoder
         when(userRepository.findByEmail("test@example.com")).thenReturn(Optional.of(user));
         when(passwordEncoder.matches("password", user.getPassword())).thenReturn(true);
         when(tokenProvider.generateToken(user)).thenReturn("generatedToken");
 
-        // Executar o teste
         UserLoginResponseDTO response = userService.login("test@example.com", "password");
 
-        // Verificações
         assertNotNull(response);
         assertEquals("generatedToken", response.getToken());
         assertEquals("testUser", response.getName());
     }
 
     @Test
-    void testLoginUserNotFound() {
-        // Mock do método findUser
+    void makeLogin_ShouldReturnUserNotFound() {
         when(userRepository.findByEmail(anyString())).thenReturn(Optional.empty());
 
-        // Executar e verificar se lança exceção
         assertThrows(RestNotFound.class, () -> userService.login("test@example.com", "password"));
     }
 
     @Test
-    void testLoginInvalidPassword() {
-        // Dados do usuário
+    void nakeLogin_ShouldReturnInvalidPassword() {
         User user = User.builder()
                 .email("test@example.com")
                 .password("encodedPassword")
                 .build();
 
-        // Mock do método findUser e passwordEncoder
         when(userRepository.findByEmail(anyString())).thenReturn(Optional.of(user));
         when(passwordEncoder.matches(anyString(), anyString())).thenReturn(false);
 
-        // Executar e verificar se lança exceção
         assertThrows(RestNotFound.class, () -> userService.login("test@example.com", "wrongPassword"));
     }
 
     @Test
-    void testRegisterUserSuccess() {
+    void makeRegister_ShouldReturnUserSuccess() {
         User newUser = User.builder()
                 .email("new@example.com")
                 .password("password")
@@ -110,7 +101,7 @@ public class UserServiceImplTest {
     }
 
     @Test
-    void testRegisterUserAlreadyExists() {
+    void makeRegister_ShouldReturnUserAlreadyExists() {
         User existingUser = User.builder()
                 .email("existing@example.com")
                 .build();
@@ -121,7 +112,7 @@ public class UserServiceImplTest {
     }
 
     @Test
-    void testGetMeSuccess() {
+    void getMe_ShouldReturnSuccess() {
         User user = User.builder().email("test@example.com").build();
         Authentication authentication = mock(Authentication.class);
         SecurityContext securityContext = mock(SecurityContext.class);
@@ -140,7 +131,7 @@ public class UserServiceImplTest {
     }
 
     @Test
-    void testGetMeAuthenticationNotFound() {
+    void getMe_ShouldReturnAuthenticationNotFound() {
         Authentication authentication = mock(Authentication.class);
         SecurityContext securityContext = mock(SecurityContext.class);
 

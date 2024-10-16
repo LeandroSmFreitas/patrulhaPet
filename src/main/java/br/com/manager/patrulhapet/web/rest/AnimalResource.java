@@ -57,6 +57,6 @@ public class AnimalResource {
     @DeleteMapping("/animals/{id}/delete")
     public ResponseEntity<Void> deleteAnimal(@PathVariable("id") Long id) {
         facade.deleteAnimal(id);
-        return ResponseEntity.ok().build();
+        return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
     };
 }

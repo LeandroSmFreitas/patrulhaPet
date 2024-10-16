@@ -6,6 +6,7 @@ import jakarta.validation.constraints.NotNull;
 import lombok.*;
 
 import java.io.Serializable;
+import java.util.Set;
 
 @Entity
 @Table(name = "users")
@@ -50,5 +51,6 @@ public class User implements Serializable {
     @Enumerated(EnumType.STRING)
     private RoleUser role;
 
-
+    @OneToMany(mappedBy = "user")
+    private Set<Animal> animals;
 }

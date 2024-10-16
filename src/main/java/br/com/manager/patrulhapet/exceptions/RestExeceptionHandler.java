@@ -71,5 +71,15 @@ public class RestExeceptionHandler {
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(errorMessage);
     }
 
+    @ExceptionHandler(RestAccessDeniedError.class)
+    @ResponseBody
+    public ResponseEntity<Object> eventAccessDenied(RestAccessDeniedError ex) {
+
+        RestErrorMessage errorMessage = new RestErrorMessage(
+                HttpStatus.FORBIDDEN,
+                ex.getMessage());
+        return ResponseEntity.status(HttpStatus.FORBIDDEN).body(errorMessage);
+    }
+
 
 }

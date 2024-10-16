@@ -64,5 +64,7 @@ public class Animal implements Serializable {
     @Enumerated(EnumType.STRING)
     private AnimalStatus status;
 
-
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;
 }
