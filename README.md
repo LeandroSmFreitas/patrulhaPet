@@ -58,5 +58,9 @@ Após a configuração das variáveis de ambiente, a configuração do banco de 
 você pode utilizar esse comando ou rodar pelo proprio intelij
 ## Metricas New Relic
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](src/assets/performance1.png)
+
+![App Screenshot](src/assets/performance2.png)
+
+![App Screenshot](src/assets/performance3.png)
 
