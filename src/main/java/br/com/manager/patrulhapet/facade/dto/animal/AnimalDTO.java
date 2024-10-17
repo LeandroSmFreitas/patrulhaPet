@@ -41,6 +41,11 @@ public class AnimalDTO {
     private LocalDate birthDate;
 
     @NotNull
+    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
+    @ToString.Include
+    private int age;
+
+    @NotNull
     @ToString.Include
     @Builder.Default
     private AnimalStatus status = AnimalStatus.ENABLED;
